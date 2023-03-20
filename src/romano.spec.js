@@ -12,3 +12,11 @@ describe("Romano", () => {
       expect(convertirRomano(2)).toEqual("II");
     });
   });
+
+  describe("Romano", () => {
+    it("devolver III si el numero ingresado es 3", () => {
+      expect(convertirRomano(3)).toEqual("III");
+    });
+  });
+
+
