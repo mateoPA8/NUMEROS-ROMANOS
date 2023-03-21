@@ -1,7 +1,7 @@
 function convertirRomano(numero)
 {
-    var romano=["I", "IV"];
-    var numeros=[1, 4];
+    var romano=["I", "IV","V"];
+    var numeros=[1, 4,5];
     var i=numeros.length-1;
     var texto="";
     while(numero>0){

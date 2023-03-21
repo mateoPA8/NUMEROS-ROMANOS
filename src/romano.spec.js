@@ -18,5 +18,15 @@ describe("Romano", () => {
       expect(convertirRomano(3)).toEqual("III");
     });
   });
-
-
+  describe("Romano", () => {
+    it("devolver IV si el numero ingresado es 4", () => {
+      expect(convertirRomano(4)).toEqual("IV");
+    });
+  });
+  describe("Romano", () => {
+    it("devolver V si el numero ingresado es 5", () => {
+      expect(convertirRomano(5)).toEqual("V");
+    });
+  });
+  
+  
