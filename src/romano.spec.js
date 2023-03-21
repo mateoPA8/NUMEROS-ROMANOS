@@ -45,3 +45,8 @@ describe("Romano", () => {
       expect(convertirRomano(90)).toEqual("XC");
     });
   });
+  describe("Romano", () => {
+    it("devolver C si el numero ingresado es 100", () => {
+      expect(convertirRomano(100)).toEqual("C");
+    });
+  });
