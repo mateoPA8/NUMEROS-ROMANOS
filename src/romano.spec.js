@@ -29,4 +29,8 @@ describe("Romano", () => {
     });
   });
   
-  
+  describe("Romano", () => {
+    it("devolver X si el numero ingresado es 10", () => {
+      expect(convertirRomano(10)).toEqual("X");
+    });
+  });
