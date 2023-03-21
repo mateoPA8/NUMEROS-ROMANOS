@@ -34,3 +34,9 @@ describe("Romano", () => {
       expect(convertirRomano(10)).toEqual("X");
     });
   });
+
+  describe("Romano", () => {
+    it("devolver XL si el numero ingresado es 40", () => {
+      expect(convertirRomano(40)).toEqual("XL");
+    });
+  });
